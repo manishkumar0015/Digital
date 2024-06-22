@@ -23,6 +23,8 @@ $(document).ready(function () {
         }
     })
 
+    
+
     $(".tabs__button a").click(function(){
         $(".tabs__button a").removeClass('active')
         $(this).addClass('active')
@@ -32,3 +34,5 @@ $(document).ready(function () {
         return false;
     })
 });
+
+ 

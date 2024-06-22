@@ -1,0 +1,83 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   .DS_Store
+#	modified:   css/style.css
+#	modified:   images/.DS_Store
+#	deleted:    images/IOS.svg
+#	modified:   images/Logo.svg
+#	deleted:    images/Nextjs.svg
+#	deleted:    images/Strapi.monogram.logo.svg
+#	deleted:    images/Vuejs.svg
+#	deleted:    images/about_image_1.webp
+#	deleted:    images/adobe-xd-icon.svg
+#	deleted:    images/android.svg
+#	deleted:    images/angular.svg
+#	deleted:    images/aws.svg
+#	deleted:    images/banner_avatar_img_1.webp
+#	deleted:    images/banner_avatar_img_2.webp
+#	deleted:    images/banner_avatar_img_3.webp
+#	deleted:    images/bootstrap.svg
+#	deleted:    images/braket.svg
+#	deleted:    images/client_logo_1.webp
+#	deleted:    images/client_logo_2.webp
+#	deleted:    images/client_logo_3.webp
+#	deleted:    images/client_logo_4.webp
+#	deleted:    images/client_logo_5.webp
+#	deleted:    images/contentful copy.svg
+#	deleted:    images/contentful.svg
+#	deleted:    images/django.svg
+#	deleted:    images/figma.svg
+#	deleted:    images/firebase.svg
+#	deleted:    images/flutter.svg
+#	deleted:    images/gatsby.svg
+#	deleted:    images/google-cloud.svg
+#	deleted:    images/hero_banner_image_4.webp
+#	deleted:    images/html5.svg
+#	deleted:    images/icon_design.svg
+#	deleted:    images/icon_development.svg
+#	deleted:    images/icon_flexibility.svg
+#	deleted:    images/icon_globe.svg
+#	deleted:    images/icon_maintenance.svg
+#	deleted:    images/javascript.svg
+#	deleted:    images/joomla.svg
+#	deleted:    images/laravel copy.svg
+#	deleted:    images/laravel.svg
+#	deleted:    images/mongodb.svg
+#	deleted:    images/mysql.svg
+#	deleted:    images/nodejs.svg
+#	deleted:    images/php.svg
+#	deleted:    images/postgresql.svg
+#	deleted:    images/python.svg
+#	deleted:    images/react-native.svg
+#	deleted:    images/react.svg
+#	deleted:    images/redis.svg
+#	deleted:    images/sanity-monogram--black-on-white.svg
+#	deleted:    images/sanity.svg
+#	deleted:    images/shape_banner.svg
+#	deleted:    images/shape_circle.svg
+#	deleted:    images/shape_hand.png
+#	deleted:    images/shape_triangle.svg
+#	deleted:    images/shape_triangle_1.svg
+#	deleted:    images/shopify.svg
+#	deleted:    images/site_logo_dark.svg
+#	deleted:    images/site_logo_white.svg
+#	deleted:    images/strapi.svg
+#	deleted:    images/tailwind-css.svg
+#	deleted:    images/wordpress.svg
+#	modified:   index.html
+#	modified:   js/.DS_Store
+#	modified:   js/script.js
+#
+# Untracked files:
+#	css/normalize.css
+#	images/arrow.svg
+#	img2/
+#	work_images/
+#
+
