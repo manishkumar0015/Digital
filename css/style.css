@@ -1250,3 +1250,73 @@ img.whychooseusimage {
 .product__block{
     margin-bottom: 15px;
 }
+
+
+/*!
+ *	quality
+ * ----------------------------------------------- */
+
+.quality__content h2{
+    font-size: 60px;
+    font-weight: 700;
+    background-image: var(--brand-gradient);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.section--quality .row{
+    justify-content: center;
+    align-items: center;
+}
+.quality__sub p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+.flexible__box{
+    background-color: #8E24AA;
+    height: 412px;
+    border-radius: 50px;
+    margin-right: 41px;
+    position: relative;
+
+}
+.flexible__box h2{
+    margin-bottom: 0;
+    padding-top: 150px;
+    padding-left: 23px;
+    padding-right: 16px;
+    color: #FFFFFF;
+    font-size: 60px !important;
+}
+.choose__box h2{
+    font-size: 65px;
+}
+.flexible-2{
+    background-color: #5200FF;
+    
+}
+.flexible-2 h2{
+    padding-top: 218px;
+
+
+}
+.flexible-1::after, .flexible-2::before{
+    content: "";
+    position: absolute;
+}
+.flexible-1::after{
+    top: 25px;
+    right: 47px;
+    height: 212px;
+    width: 214px;
+    background-image: url(../choose_images/Group.svg);
+}
+.flexible-2::before{
+    top: 89px;
+    right: 10px;
+    height: 267.45px;
+    width: 262.94px;
+    background-image: url(../choose_images/Group1.svg);
+}
