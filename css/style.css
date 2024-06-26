@@ -17,6 +17,7 @@
     --button-font-weeight: 600;
     --white-color: #fff;
     /* Digixtial */
+    --btn-color: #000000;
     --brand-color-1: #8E24AA;
     --brand-color-2: #D0006F;
     --brand-bg-color: #F3F2FB;
@@ -134,7 +135,9 @@ h6,
 .mt-0 {
     margin-top: 0 !important;
 }
-
+.mt-15{
+    margin-top: 15px;
+}
 .mt-30 {
     margin-top: 30px !important;
 }
@@ -349,7 +352,6 @@ h6,
     height: 50px;
     padding: 0 25px;
     color: #fff;
-    /* border-color: #0f0e0e; */
     background-image: var(--brand-gradient);
     position: relative;
     font-size: 16px;
@@ -1279,10 +1281,12 @@ img.whychooseusimage {
     line-height: 24px;
     text-align: justify;
 }
-.choose__box .row{
+
+.choose__box .row {
     align-items: center;
 
 }
+
 .flexible__box,
 .client__box {
     background-color: #8E24AA;
@@ -1405,19 +1409,148 @@ img.whychooseusimage {
     padding-top: 180px;
 }
 
-.explor__botton{
+.explor__botton {
     border: 5px solid var(--brand-color-2);
     width: 170px;
     height: 171px;
     border-radius: 50%;
     position: relative;
 }
-.explor__botton img{
-   position: absolute;
-   top: 28%;
-   left: 47px;
-   transition: .5s;
+
+.explor__botton img {
+    position: absolute;
+    top: 28%;
+    left: 47px;
+    transition: .5s;
 }
-.explor__botton:hover img{
-  transform: rotate(-45deg);
+
+.explor__botton:hover img {
+    transform: rotate(-45deg);
+}
+
+
+/* CTA section */
+
+.section--cta {
+    overflow: hidden;
+    background-image: var(--brand-gradient);
+}
+
+.cta__content {
+    position: relative;
+}
+
+.cta__content h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.cta__content p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.btn--cta {
+    background-color: var(--btn-color);
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.cta__content::before {
+    content: "";
+    position: absolute;
+    background-image: url(../cta_image/Group19.svg);
+    width: 441px;
+    height: 652px;
+    background-repeat: no-repeat;
+    right: -243px;
+    top: -165px;
+}
+
+/* Footer */
+
+.site-footer {
+    padding: 100px 0;
+}
+
+.footer__content,
+.contact__number,
+.main__development {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact__number {
+    justify-content: left;
+}
+
+.main__development {
+
+    width: 35%;
+}
+
+.Company__info {
+    width: 17%;
+}
+
+.company__page {
+    width: 11%;
+}
+
+.design__page {
+    width: 14%;
+}
+
+.footer__content ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+.footer__content li {
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.footer__content li a:hover {
+    color: var(--brand-color-2);
+}
+
+.Company__info h5,
+.contact_number {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+   
+}
+.contact_number{
+    letter-spacing: 1px;
+}
+.Company__info h3{
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+.contact__number img{
+    width: 35px;
+    height: 35px;
+}
+
+.development__page2 ul{
+    margin-top: 37px;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright p a{
+    background-image: var(--brand-gradient);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
