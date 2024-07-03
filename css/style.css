@@ -1149,8 +1149,8 @@ img.whychooseusimage {
     margin-top: 0;
 }
 
-.services_slider:hover .services__box a:hover:before {
-    width: 78px;
+.services_slider:hover .services__box a:hover:before, .industries__sub_title a:hover:before  {
+    width: 100%;
     opacity: 1;
 }
 
@@ -1161,11 +1161,10 @@ img.whychooseusimage {
     border-bottom: 1px solid transparent;
 }
 
-.services__box a::before {
+.services__box a::before, .industries__sub_title a::before {
     content: "";
     position: absolute;
     width: 0;
-    height: 2px;
     opacity: 0;
     transition: .5s;
     left: 0;
@@ -2028,4 +2027,69 @@ hr {
    font-size: 36px;
    font-weight: 400;
   
+}
+
+
+.column {
+    width: 490px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 50px;
+    margin-bottom: 30px;
+
+}
+.industries__heading h2 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.industries__sub_title  p{
+    font-size: 20px;
+    color: #4E4E4E;
+    font-weight: 400;
+    line-height: 33px;
+}
+.industries__sub_title a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #D0006F;
+    position: relative;
+}
+
+.industries__contant{
+    display: flex;
+    align-items: center;
+}
+.industries__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.schedule__contant{
+    text-align: center;
+}
+.schedule__contant h2{
+   font-size: 48px;
+   font-weight: 700;
+   background: linear-gradient(90deg, #D0006F 0%, #8E24AA 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.schedule__contant .schedule__mail{
+    display: block;
+    margin-top: 10px;
+}
+.btn__schedule{
+    border-radius: 50px;
+}
+
+.section--schedule{
+    background-color: #F3F2FB;
 }
