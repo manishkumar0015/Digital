@@ -137,6 +137,10 @@ h6,
 .mx-auto {
     margin-right: auto !important;
 }
+.pt-mt{
+    padding-top: 50px !important;
+    margin-top: 0 !important;
+}
 
 .mt-0 {
     margin-top: 0 !important;
@@ -153,6 +157,9 @@ h6,
 .mt-35 {
     margin-top: 35px !important;
 }
+.mb-35{
+    margin-bottom: 35px !important;
+}
 
 .mt-40 {
     margin-top: 40px;
@@ -163,9 +170,11 @@ h6,
 }
 
 .mt-45 {
-    margin-top: 45px;
+    margin-top: 45px !important;
 }
-
+.mt-50{
+    margin-top: 50px !important;
+}
 .mt-64 {
     margin-top: 64px !important;
 }
@@ -173,7 +182,9 @@ h6,
 .mt-72 {
     margin-top: 72px !important;
 }
-
+.pt-70{
+    padding-top: 70px !important;
+}
 .mb-0 {
     margin-bottom: 0 !important;
 }
@@ -185,7 +196,12 @@ h6,
 .ml-100 {
     margin-left: 100px;
 }
-
+.pl-0{
+    padding-left: 0 !important;
+}
+.pr-35{
+    padding-right: 35px !important;
+}
 .mt-100 {
     margin-top: 100px;
 }
@@ -405,7 +421,23 @@ h6,
     transition: .5s;
 
 }
+.btn--brand{
+    background-color: #F4F3FF;
+    border-radius: 20px 0px 20px 0px !important;
+    padding: 0 30px !important;
+    height: 70px !important;
+    margin-top: 50px;
 
+}
+.btn--brand .bd_button_text{
+    background-image: var(--brand-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 36px;
+    font-size: 20px;
+    font-weight: 700;
+}
 .hero_btn:hover img {
     transform: rotate(45deg);
     transition: .5s;
@@ -2447,10 +2479,12 @@ hr {
 }
 
 .sub_title {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
     line-height: 30px;
-    max-width: 625px;
+    max-width: 717px;
+    padding-left: 83px;
+    color: #6E7191;
 }
 
 .logotype img {
@@ -2494,8 +2528,15 @@ hr {
 }
 
 .mx-w {
-    max-width: 945px;
-    color: #6E7191;
+    max-width: 1036px;
+}
+
+.mx-w2 {
+    max-width: 1028px;
+
+}
+.mx-w3{
+    max-width: 854px;
 
 }
 
@@ -2559,15 +2600,108 @@ hr {
     left: 0;
 }
 
+.mx--w {
+    max-width: 745px;
 
+}
 
+.background-color .row::before {
+    background-color: transparent;
+}
 
+.pink__color,
+.white__color,
+.black__color {
+    background-color: #F3F2FB;
+    height: 330px;
+    width: 375.43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.pink__color img {
+    width: 265px;
+}
 
 .dev__block {
     text-align: center;
     padding-top: 20px;
 
+}
+.color__box{
+    display: flex;
+    justify-content: center;
+}
+.white__color {
+    background-color: #FFFFFF;
+}
+.primary-color, .secondary-color, .gradient-color{
+    background-color: #CE006F;
+    padding: 32px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.color__information .row::before, .logo__misuse .row::before{
+    display: none;
+}
+.secondary-color{
+    background-color: #6E0080;
+}
+.gradient-color{
+    background: linear-gradient(90deg, #D0006F 0%, #8E24AA 100%);
+    -webkit-text-fill-color: transparent;
+}
+.primary-color h4, .secondary-color h4, .gradient-color h4{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 100px;
+
+}
+.color__code p, .secondary-color p, .gradient-color p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.black__color {
+    background-color: #000000;
+}
+
+.brand__element img{
+    width: 266px;
+    height: 83px;
+
+}
+.brand__img_last img{
+    rotate: -27deg;
+}
+
+.brand__element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F3FF;
+    padding: 90px 50px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.logo__box-item, .brand__element{
+    width: 450px;
+    height: 350px;
+
+
+}
+.logo__box-item p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.brand__logo_item{
+    display: flex;
+    justify-content: space-around;
 }
 
 /* 
@@ -2637,6 +2771,30 @@ hr {
 
 }
 
-.padding_mb{
+.padding_mb {
     padding: 60px 0 0 80px;
+}
+
+
+/*Single Service Page*/
+.enterprise__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 15px;
+}
+.box__development{
+    padding-left: 35px;
+}
+.development__content h2{
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.development__content p{
+    line-height: 39px;
+   
+}
+.development__icon a{
+    margin-right: 20px;
 }
